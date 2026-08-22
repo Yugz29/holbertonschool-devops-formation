@@ -1,0 +1,60 @@
+# ---- macOS ----
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+.AppleDouble
+.LSOverride
+
+# ---- Éditeurs / IDE ----
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.claude/
+
+# ---- Logs & temporaires ----
+*.log
+logs/
+tmp/
+temp/
+*.tmp
+*.bak
+
+# ---- Secrets & variables d'environnement ----
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+id_rsa*
+credentials
+secrets.yml
+
+# ---- Dépendances ----
+node_modules/
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+env/
+
+# ---- DevOps / Infra ----
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+!*.tfvars.example
+crash.log
+
+# Vagrant
+.vagrant/
+
+# Ansible
+*.retry
+
+# Docker
+docker-compose.override.yml
