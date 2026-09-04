@@ -2,7 +2,7 @@
 
 ## Commands used
 
-\`\`\`bash
+```bash
 docker pull nginx
 docker run -d -p 8080:80 --name my-nginx nginx
 curl http://localhost:8080
@@ -15,7 +15,7 @@ exit
 docker logs my-nginx
 docker stop my-nginx
 docker rm my-nginx
-\`\`\`
+```
 
 ## Observations
 
