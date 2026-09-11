@@ -1,0 +1,8 @@
+app: monservice
+environment: production
+version: 2.0.0
+description: service principal
+replicas: 4
+max_connections: 100
+feature_dark_mode: true
+log_level: info

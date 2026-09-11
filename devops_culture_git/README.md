@@ -23,3 +23,5 @@ blameless post-mortems.
 | File | Description |
 |---|---|
 | `0-environment.md` | Local environment setup verification (Docker, Git, SSH, Node.js). |
+| `config.yml` | Resolved merge conflict between `feature/scale-up` and `feature/dark-mode`. |
+| `RESOLUTION.md` | Explanation of the conflict, its cause, the resolution choice and why small changes reduce conflicts. |
