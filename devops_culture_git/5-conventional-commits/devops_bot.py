@@ -3,6 +3,7 @@
 
 
 def bot_status(name, energy):
+    energy = max(0, min(100, energy))
     return f"{name} is online with {energy}% energy"
 
 
