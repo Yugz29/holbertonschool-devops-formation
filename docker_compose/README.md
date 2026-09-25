@@ -12,3 +12,4 @@ command.
 | Task | Description |
 |---|---|
 | [0-first_stack](./0-first_stack) | Run an `nginx` → Flask → Postgres stack with one `docker compose up`: only `nginx` is published on port `8080`, `/api` is proxied to the Flask app, and the Postgres password stays out of Git in a `.env` file. |
+| [1-healthchecks](./1-healthchecks) | Add a `pg_isready` healthcheck to Postgres and make the API wait for `condition: service_healthy`, with real logs showing `db` healthy before `api` starts and a counter-example where a plain `depends_on` loses the race. |
