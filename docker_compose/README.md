@@ -1,0 +1,14 @@
+# Docker Compose
+
+## About
+
+This project uses Docker Compose to describe and run multi-container
+applications from a single `compose.yaml` file: a reverse proxy, an API
+built from a Dockerfile and a database, started and stopped with one
+command.
+
+## Tasks
+
+| Task | Description |
+|---|---|
+| [0-first_stack](./0-first_stack) | Run an `nginx` → Flask → Postgres stack with one `docker compose up`: only `nginx` is published on port `8080`, `/api` is proxied to the Flask app, and the Postgres password stays out of Git in a `.env` file. |
