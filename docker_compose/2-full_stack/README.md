@@ -206,5 +206,6 @@ one after it a hit.
 docker compose down -v
 ```
 
-`-v` also removes the anonymous volumes created by the Postgres and
-Redis images.
+`-v` also removes the anonymous volume created by the Postgres image.
+Redis has no volume: its data lives in the container and is removed with
+it.
