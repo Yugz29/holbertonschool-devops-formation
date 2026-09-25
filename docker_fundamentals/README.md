@@ -15,3 +15,4 @@ builds, starts and answers requests.
 | [1-first_image](./1-first_image) | Write a Dockerfile for a small Flask app, build the image and run it as a container. |
 | [2-fix_flask](./2-fix_flask) | Fix a broken Dockerfile for a Flask app so it builds, stays up and returns `Hello from Flask in Docker!` on port `5000`. |
 | [3-fix_express](./3-fix_express) | Fix a broken Dockerfile for an Express app so it builds, stays up and returns `Hello from Express in Docker!` on port `3000`. |
+| [4-interact.md](./4-interact.md) | Make the task 1 message configurable with a `GREETING` environment variable, pass it with `-e`, read it with `docker exec` and check it with `docker inspect` and `docker logs`. |
